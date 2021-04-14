@@ -1,0 +1,134 @@
+body {
+    background-image: url("image/firstTemplateBG.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+
+p,
+h2 {
+    color: whitesmoke;
+}
+
+* {
+    padding: 10;
+    margin: 20;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    background: whitesmoke;
+    height: 80px;
+    width: 100;
+}
+
+label {
+    color: black;
+    font-size: 50px;
+    padding: 15px;
+    padding-top: 20px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 35px;
+    font-size: 20px;
+}
+
+ul li:hover {
+    background: lightgrey;
+}
+
+.img-area {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    text-justify: distribute;
+    padding: 2px 2px;
+    color: white;
+}
+
+.iconContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    text-justify: distribute;
+    padding: 2px 2px;
+    color: white;
+}
+
+.singleIcon {
+    padding: 20px 20px;
+}
+
+.demo {
+    color: white;
+    font-size: large;
+    list-style-type: none;
+}
+
+.UAdd {
+    background-color: gray;
+    padding: 20px;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.btn-add {
+    background-color: rgb(12, 187, 50);
+    color: white;
+    padding: 05 px 63px;
+}
+
+.second-box>img {
+    height: 460px;
+    width: 420px;
+}
+
+.main-area {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.first-box {
+    color: #000;
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.second-box {
+    color: white;
+}
+
+.main-area button {
+    background-color: #2e76db;
+    color: white;
+    margin-left: 182px;
+    margin-top: 10px;
+}
+
+.lis {
+    background-color: orange;
+    color: white;
+    margin-bottom: 50px;
+    padding: 5px;
+}
