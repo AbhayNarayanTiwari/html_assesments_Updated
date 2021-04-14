@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Template</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="Javascript/changeImageIn5SecondInFirstTemplet.js"></script>
+    <script src="Javascript/swappingOfImages.js"></script>
+</head>
+
+<body onload="changeImage()">
+    <header>
+
+        <nav>
+            <label>UPPER</label>
+            <ul>
+                <li>Home</li>
+                <li>First Gallery</li>
+                <li>Second</li>
+                <li>Third Grid</li>
+                <li>About Us</li>
+                <li>Contact</li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <h2>First Image Gallery</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Nulla voluptatum fuga mollitia dignissimos<br> quae dolorem eaque amet quod. Laborum, maiores.
+    </p>
+    <div class="img-area" style="position: relative; color: white; text-align: center;">
+        <div class="single-img"><img src="image/flex1.jpg" height="400px" width="300px" id="img1" onclick="swapTwoImage()">
+            <div class="centeredTextOnImage" style="position:absolute;top: 50%;left: 13%;font-size: 30px;transform: translate(-50%, -50%); font-family: Arial, Helvetica, sans-serif;">
+                First Image
+            </div>
+        </div>
+
+        <div class="single-img" style="padding: 30px; "><img src="image/flex2.jpg" height="400px" width="300px" id="img2" onclick="swapThreeImage()">
+            <div class="centeredTextOnImage" style="position:absolute;top: 50%;left: 37%;font-size: 30px;transform: translate(-50%, -50%); font-family: Arial, Helvetica, sans-serif;">
+                Second Image
+            </div>
+        </div>
+
+        <div class="single-img"><img src="image/flex3.jpg" height="400px" width="300px" id="img3">
+            <div class="centeredTextOnImage" style="position:absolute;top: 50%;left: 62%;font-size: 30px;transform: translate(-50%, -50%); font-family: Arial, Helvetica, sans-serif;">
+                Third Image
+            </div>
+        </div>
+
+        <div class="single-img" style="padding: 30px;"><img src="image/flex4.jpg" height="400px" width="300px" id="img4">
+            <div class="centeredTextOnImage" style="position:absolute;top: 50%;left: 86%;font-size: 30px;transform: translate(-50%, -50%); font-family: Arial, Helvetica, sans-serif;">
+                Fourth Image
+            </div>
+        </div>
+    </div>
+    <div class="iconContainer">
+        <img src="image/fb.png" height="40px" width="40px" />
+        <div class="singleIcon"><img src="image/insta.png" height="40px" width="40px" /></div>
+        <img src="image/g+.png" height="40px" width="40px" />
+        <div class="singleIcon"> <img src="image/twitter.png" alt="" height="40px" width="40px" /></div>
+        <img src="image/linkedin.png" alt="" height="40px" width="40px" />
+    </div>
+    <h2>Copyright &copy 2021 Your Company - design Template</h2>
+</body>
+
+</html>

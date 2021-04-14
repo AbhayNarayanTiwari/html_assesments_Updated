@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="Javascript/changeImageIn2.5SecondInSecondTemplet.js"></script>
+    <script src="Javascript/JSvalidation.js"></script>
+</head>
+
+<body onload="changeImage()">
+    <header>
+
+        <nav>
+            <label>UPPER</label>
+            <ul>
+                <li>Home</li>
+                <li>First Gallery</li>
+                <li>Second</li>
+                <li>Third Grid</li>
+                <li>About Us</li>
+                <li>Contact</li>
+                <li id="timer"></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-area">
+        <div class="first-box">
+            <h1>Contact Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Facilis eum corrupti porro qui eos quidem reprehe<br> nderit sed omnis incidunt beatae.
+            </p>
+            <form name="contactForm" onsubmit="return ContactValidation()">
+                <input type="text" placeholder="Name" size="31" name="iname"><br>
+                <input type="text" placeholder="E-mail" size="31" name="iemail"><br>
+                <textarea placeholder="Your Comments" rows="10" cols="30" name="icomment"></textarea><br>
+                <button type="submit" value="submit">Submit</button>
+            </form>
+        </div>
+        <div class="second-box">
+            <h2>123 New Street 1100, San Francisco, CA</h2>
+            <img src="image/2.jpg" id="img" />
+        </div>
+    </div>
+</body>
+
+</html>
